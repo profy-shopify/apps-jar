@@ -1,3 +1,7 @@
+domain: fast-apps.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://profy-shopify.github.io/fast-apps  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl:
+
 #page title
 page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
@@ -7,13 +11,14 @@ ios_app_country                           : us                                  
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    :                                      # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_icon                                  : assets/light_logo.svg                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+dark_app_icon                             : assets/logo.svg 
+app_name                                  : Profy - Announcement & Countdown                                     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_description                           : Create and customize announcement banner, countdown timer, coupon bar and popup bar.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -36,40 +41,40 @@ mastodon_link                             : https://mastodon.social/@ebaehr
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
+  - title                                 : Customizable
+    description                           : Add your design to the banner based on the requirement. 
     fontawesome_icon_name                 : magic
     
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
+  - title                                 : Fully Responsive
+    description                           : All banners automatically support mobile and tablet screens.
     fontawesome_icon_name                 : mobile
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+  - title                                 : Automatic Translation
+    description                           : Banner content is automatically translated into the visitor's local language.
+    fontawesome_icon_name                 : language
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
+  - title                                 : Country Targeting
+    description                           : Display offer and coupon based vistor's country
+    fontawesome_icon_name                 : globe
 
   - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
+    description                           : Tweak background color, images, background image, transparency, etc.
     fontawesome_icon_name                 : adjust
   
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
+  - title                                 : Sticky Bar
+    description                           : Continue to display the banner even when users scroll.
+    fontawesome_icon_name                 : eye
 
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
+  - title                                 : Custom CSS & Javascript code
+    description                           : Add more functionalities through CSS & JS code.
+    fontawesome_icon_name                 : file-code
 
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
+  - title                                 : Manage Visibility
+    description                           : Hide/Show banners on the different shop pages and page categories.
+    fontawesome_icon_name                 : eye-slash
 
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
+  - title                                 : Custom Fonts
+    description                           : Choose fonts from 15+ unique options.
     fontawesome_icon_name                 : info-circle
 
   - title                                 : # New Feature Title

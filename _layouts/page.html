@@ -5,12 +5,12 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-{% include head.html %}
+{% include head.html foo=light %}
 
 <body class="subPageBody">
     <div class="headerBackground subPageHeaderBackground">
         <div class="container subPageContainer">
-        {% include header.html %}
+            {% include header.html %}
             <article class="page markdown-body">
                 {{ content }}
             </article>
