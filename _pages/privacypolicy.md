@@ -7,7 +7,7 @@ include_in_header: false
 **Last updated**  
 July 18, 2023
 
-# Privacy Policy for Fast Apps
+# Privacy Policy for AppsJar
 ### Privacy Policy
 
 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
@@ -25,9 +25,9 @@ For the purposes of this Privacy Policy:
 
 - **Affiliate** means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
 
-- **Application** refers to Fast Apps, the software program provided by the Company.
+- **Application** refers to AppsJar, the software program provided by the Company.
 
-- **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Fast Apps.
+- **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to AppsJar.
 
 - **Country** refers to: Karnataka, India
 
