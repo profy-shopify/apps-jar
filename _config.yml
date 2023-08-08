@@ -3,7 +3,7 @@ url: https://profy-shopify.github.io/apps-jar  # the base hostname and protocol 
 baseurl:
 
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Apps Jar                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -25,16 +25,16 @@ enable_smart_app_banner                   : true                                
 
 
 # Information About Yourself
-your_name                                 : Emil Baehr                                
-your_link                                 : https://emilbaehr.com                     
-your_city                                 : Copenhagen                                
-email_address                             : emil.baehr@gmail.com
+your_name                                 :                                
+your_link                                 :                     
+your_city                                 :                                 
+email_address                             : support@appsjar.net
 facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
+instagram_username                        : 
+twitter_username                          : 
+github_username                           : 
 youtube_username                          :
-mastodon_link                             : https://mastodon.social/@ebaehr
+mastodon_link                             : 
 
 
 
