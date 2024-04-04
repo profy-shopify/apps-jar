@@ -111,3 +111,5 @@ I'd love to see the sites you create using this little tool.
 
 ## License
 [MIT License](LICENSE)
+
+setup: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll 
